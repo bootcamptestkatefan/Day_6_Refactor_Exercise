@@ -13,8 +13,8 @@ public class TestForDriver {
         Driver driver2 = new Driver(17);
         Police police = new Police();
 
-        assertTrue(police.checkDriver(driver1));
-        assertFalse(police.checkDriver(driver2));
+        assertTrue(police.checkDriverIsAdult(driver1));
+        assertFalse(police.checkDriverIsAdult(driver2));
     }
 
 }
